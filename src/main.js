@@ -1,5 +1,5 @@
-requirejs([], function() {
-  console.log("hello world");
+require(['./lib'], function(lib) {
+    lib.hello();
 });
 
 
