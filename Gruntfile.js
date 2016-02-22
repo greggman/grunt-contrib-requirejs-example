@@ -6,9 +6,9 @@ module.exports = function(grunt) {
         options: {
           baseUrl: "./",
           name: "node_modules/almond/almond.js",
-          mainConfigFile: "config.js",
           include: [ 'src/main.js'],
           out: "dist/app.js",
+          optimize: "none",
         },
       },
     },
